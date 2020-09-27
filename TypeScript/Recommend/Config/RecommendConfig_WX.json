@@ -1,0 +1,107 @@
+{
+    "GameLobby": [
+        {
+            "name": "RecommendBanner_H",
+            "AdID": "friend",
+            "itemType": "icon",
+            "widget": {
+                "left": 0.5,
+                "bottom": 0,
+                "right": 20
+            }
+        },
+        {
+            "name": "RecommendBanner_V",
+            "AdID": "friend",
+            "itemType": "icon",
+            "widget": {
+                "top": 100,
+                "bottom": 200,
+                "right": 20
+            }
+        }
+    ],
+    "TouchBannerUI": [],
+    "WinUI": [
+        {
+            "name": "RecommendMatrix",
+            "AdID": "gameoverWin",
+            "itemType": "iconNameBg",
+            "widget": {
+                "top": 115,
+                "left": 0,
+                "right": 0,
+                "bottom": 210
+            }
+        }
+    ],
+    "LoseUI": [
+        {
+            "name": "RecommendMatrix",
+            "AdID": "gameoverWin",
+            "itemType": "iconNameBg",
+            "widget": {
+                "top": 115,
+                "left": 0,
+                "right": 0,
+                "bottom": 210
+            }
+        }
+    ],
+    "AssembleScene": [
+        {
+            "name": "RecommendBanner_V",
+            "AdID": "friend",
+            "itemType": "icon",
+            "widget": {
+                "top": 100,
+                "bottom": 20,
+                "right": 20
+            }
+        }
+    ],
+    "PauseLevelUI": [
+        {
+            "name": "RecommendBanner_H",
+            "AdID": "friend",
+            "itemType": "icon",
+            "widget": {
+                "left": 20,
+                "bottom": 0,
+                "right": 20
+            }
+        },
+        {
+            "name": "RecommendPrimary",
+            "AdID": "fightScene",
+            "itemType": "icon",
+            "nodeWidgets": [
+                {
+                    "left": 80,
+                    "top": 180
+                },
+                {
+                    "right": 80,
+                    "top": 180
+                }
+            ]
+        }
+    ],
+    "FightScene": [
+        {
+            "name": "RecommendPrimary",
+            "AdID": "fightScene",
+            "itemType": "icon",
+            "nodeWidgets": [
+                {
+                    "left": 80,
+                    "top": 180
+                },
+                {
+                    "right": 80,
+                    "top": 180
+                }
+            ]
+        }
+    ]
+}
